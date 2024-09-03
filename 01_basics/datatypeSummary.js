@@ -31,5 +31,38 @@
     
 //  }
 
- console.log(typeof bigNumber);
+//  console.log(typeof bigNumber);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack( primitive-- copy), heap (non primitive--refrence)
+
+// let myUtName="saurabhTiwari"
+// let anotherNAme=myUtName
+// console.log(anotherNAme);
+
+// anotherNAme="hitesh"
+// console.log(myUtName);
+// console.log(anotherNAme);
+
+let userOne={
+    name: "saurabh",
+    email: "saurabh.google.com"
+}
+let userTwo=userOne
+
+userTwo.email="hitesh.google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// All primitive values goes to stack
+
+
+
+
+
+
+
+
  
