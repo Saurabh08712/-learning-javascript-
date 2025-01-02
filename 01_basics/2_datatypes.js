@@ -12,5 +12,7 @@ console.log(typeof age);
 console.log(typeof null);
 console.log(typeof undefined);
 
+// prefer not to use var because of block scope and functional scope
+
 
 
